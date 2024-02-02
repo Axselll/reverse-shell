@@ -57,27 +57,27 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ### Start Netcat listener ###
 ```bash
-$ nc -nlvp 8888
+nc -nlvp 8888
 ```
 
 ### Clone this project ####
 ```bash
-$ git clone https://github.com/Axselll/revere-shell
+git clone https://github.com/Axselll/reverse-shell
 ```
 
 ### Access ###
 ```bash
-$ cd reverse-shell
+cd reverse-shell
 ```
 
 ### Install dependencies ###
 ```bash
-$ go get
+go get
 ```
 
 ### Build ###
 ```bash
-$ go build
+go build
 ```
 ### Execute the payload from your target machine, how? good luck finding that out ###
 
