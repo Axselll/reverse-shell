@@ -39,7 +39,7 @@ This project is for learning purposes.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Custom Reverse Shell Payload\
+:heavy_check_mark: Custom Reverse Shell Payload
 
 
 ## :rocket: Technologies ##
@@ -55,24 +55,31 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ## :checkered_flag: Starting ##
 
+### Start Netcat listener ###
 ```bash
-# Start Netcat listener
 $ nc -nlvp 8888
-
-# Clone this project
-$ git clone https://github.com/Axselll/revere-shell
-
-# Access
-$ cd reverse-shell
-
-# Install dependencies
-$ go get
-
-# Build
-$ go build
-
-# Execute the payload from your target machine, how? good luck finding that out
 ```
+
+### Clone this project ####
+```bash
+$ git clone https://github.com/Axselll/revere-shell
+```
+
+### Access ###
+```bash
+$ cd reverse-shell
+```
+
+### Install dependencies ###
+```bash
+$ go get
+```
+
+### Build ###
+```bash
+$ go build
+```
+### Execute the payload from your target machine, how? good luck finding that out ###
 
 Made with :heart: by <a href="https://github.com/{{Axselll}}" target="_blank">Axselll</a>
 
