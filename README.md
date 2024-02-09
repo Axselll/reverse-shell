@@ -36,7 +36,7 @@
 
 ## :dart: About ##
 
-This project is for hacking learning purposes. Have not tested it on windows machine because i'm lazy
+This project is for learn hacking purposes. Have not tested it on windows machine because i'm lazy
 
 ## :sparkles: Features ##
 
