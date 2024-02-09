@@ -28,6 +28,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-tested-on-os">Test</a> &#xa0; | &#xa0;
   <a href="https://github.com/Axselll" target="_blank">Author</a>
 </p>
 
@@ -35,7 +36,7 @@
 
 ## :dart: About ##
 
-This project is for learning purposes.
+This project is for hacking learning purposes. Have not tested it on windows machine because i'm lazy
 
 ## :sparkles: Features ##
 
@@ -75,12 +76,24 @@ cd reverse-shell
 go get
 ```
 
+### Change <ATTACKER_ADDRESS> to your receiving netcat address ###
+```bash
+srcAddress := "<ATTACKER_ADDRESS>"
+```
+
 ### Build ###
 ```bash
 go build
 ```
 ### Execute the payload from your target machine, how? good luck finding that out ###
 
+
+## :memo: Tested on OS ##
+- [x] Linux
+- []  Windows
+- [] MacOS/ARM <- Just forget about this, i never have a mac
+
+<br>
 Made with :heart: by <a href="https://github.com/{{Axselll}}" target="_blank">Axselll</a>
 
 &#xa0;
